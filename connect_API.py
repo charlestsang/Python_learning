@@ -16,6 +16,8 @@
 
 #These are some of the general configuration parameters you may encounter when connecting to an API. However, it's important to refer to the API's documentation or developer resources for specific details on the required configuration parameters, as each API may have its own unique requirements and additional parameters.
 
+# In this example, we're making a GET request to the https://api.example.com/users endpoint with query parameters for pagination (page and limit). We're also setting the Content-Type header to application/json and including an Authorization header with the API key.
+
 import requests
 
 # API endpoint
